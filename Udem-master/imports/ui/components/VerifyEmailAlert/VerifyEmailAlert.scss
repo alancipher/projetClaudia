@@ -1,0 +1,36 @@
+@import '../../stylesheets/colors';
+
+.VerifyEmailAlert {
+
+  padding: 10px;
+  .alert {
+    margin-bottom: 0;
+    border-top: none;
+    border-bottom: 1px solid #e7e7e7;
+    background: #fff;
+    color: $gray-dark;
+    border-radius: 0;
+
+    p {
+      padding: 19px;
+    }
+
+    .btn {
+      background: #0c6dc4;
+      background-image: -webkit-linear-gradient(top, #0c6dc4, #0c6dc4);
+      background-image: -moz-linear-gradient(top, #0c6dc4, #0c6dc4);
+      background-image: -ms-linear-gradient(top, #0c6dc4, #0c6dc4);
+      background-image: -o-linear-gradient(top, #0c6dc4, #0c6dc4);
+      background-image: linear-gradient(to bottom, #0c6dc4, #0c6dc4);
+      -webkit-border-radius: 60;
+      -moz-border-radius: 60;
+      //border-radius: 60px;
+      color: #ffffff;
+      font-size: 8px;
+      //padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      padding: 15px;
+
+    }
+  }
+}

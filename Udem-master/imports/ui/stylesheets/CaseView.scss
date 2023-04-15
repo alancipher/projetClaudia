@@ -1,0 +1,56 @@
+@media screen and (min-width: 700px){
+    .iist-cases{
+        padding: 1em;
+        align-items: left;
+        text-align: left;
+        align-self: center;
+        width: 100%;
+    }
+
+    .case-card{
+        display: inline-block;
+        width: 33%;
+        padding: 0.5em;
+        height: 10em;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .iist-cases{
+        padding: 1em;
+        align-items: left;
+        text-align: left;
+        align-self: center;
+        width: 100%;
+    }
+
+    .case-card{
+        display: inline-block;
+        width: 50%;
+        padding: 0.5em;
+        height: 10em;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .iist-cases{
+        padding: 1em;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .case-card{
+        display: inline-block;
+        width: 50vh;
+        padding: 1em;
+        height: 10em;
+        text-align: center;
+    }
+}
+
+.case-card-action{
+    float: right;
+}
+

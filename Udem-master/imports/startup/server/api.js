@@ -1,0 +1,11 @@
+import '../../api/Documents/server/indexes';
+import '../../api/Documents/server/publications';
+import '../../api/ExternatDocuments/server/indexes';
+import '../../api/ExternatDocuments/server/publications';
+import '../../api/Externats/server/indexes';
+import '../../api/Externats/server/publications';
+import '../../api/OAuth/server/methods';
+import '../../api/Users/server/methods';
+import '../../api/Users/server/publications';
+import '../../api/Cases/server/indexes';
+import '../../api/Cases/server/publications';

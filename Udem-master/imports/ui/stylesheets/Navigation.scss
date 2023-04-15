@@ -1,0 +1,17 @@
+@media screen and (min-width: 875px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 875px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}

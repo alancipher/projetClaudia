@@ -1,0 +1,8 @@
+Bonjour, {{firstName}}!
+
+Pouvez vous confirmer votre addresse couriel ?
+
+[Verify Email Address]({{verifyUrl}})
+
+Merci ,
+{{applicationName}}

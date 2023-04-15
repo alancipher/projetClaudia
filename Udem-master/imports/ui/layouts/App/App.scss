@@ -1,0 +1,223 @@
+@import '../../stylesheets/colors';
+
+body {
+  font-size: 12px !important;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.nav {
+  position: sticky;
+  top:0;
+}
+
+.navDiv {
+  padding-bottom: 7vh;
+
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+.centerPart {
+  padding-top: 6vh;
+  padding-bottom:6vh;
+  text-align: center;
+  align-items: center;
+}
+
+.fullwidth {
+  width: 100% !important;
+}
+
+.listItemText {
+  font-size: 18 !important;
+}
+
+.App > .container {
+  margin-bottom: 20px;
+}
+
+.App .verify-email {
+  margin-bottom: 0;
+  padding: 0;
+  border-top: none;
+  border-bottom: 1px solid #e7e7e7;
+  background: #fff;
+  color: $gray-dark;
+  border-radius: 0;
+
+  p {
+    padding: 19px;
+  }
+
+  .btn {
+    padding: 0;
+  }
+}
+
+.halfWidth {
+  width : 50%;
+}
+
+.s5Width {
+  width : 75%;
+}
+
+.padding1 {
+  padding: 1vh;
+}
+
+.padding2 {
+  padding: 2vh;
+}
+
+.padding3 {
+  padding: 3vh;
+}
+
+.padding4 {
+  padding: 4vh;
+}
+
+.padding5 {
+  padding: 5vh;
+}
+
+.greenCard {
+  background-color: #00ffdc;
+}
+
+.RedCard {
+  background-color: #ef7970;
+}
+
+.redText {
+    color: #ef7970 !important;
+
+}
+
+.paper {
+  padding : 6vh 3vh 6vh 3vh;
+  //font-size: 12px !important;
+
+}
+
+
+.page-title {
+  //border-bottom: 2px solid #303f9f ;
+  padding-bottom: 9px;
+  //margin: 40px 0 20px;
+}
+
+
+.revision-header {
+  padding : 4vh 3vh 4vh 3vh;
+  //font-size: 12px !important;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  background : url("../img/abstract-banner.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.paddingTop2 {
+   padding-top: 2vh;
+ }
+
+.case-practice-nav{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.paddingTop3 {
+  padding-top: 3vh;
+}
+
+.paddingTop4 {
+  padding-top: 4vh;
+}
+
+.paddingTop5 {
+  padding-top: 5vh;
+}
+
+.paddingBot2 {
+  padding-bottom: 2vh;
+}
+
+.paddingBot3 {
+  padding-bottom: 3vh;
+}
+
+.paddingBot4 {
+  padding-bottom: 4vh;
+}
+
+.paddingBot5 {
+  padding-bottom: 5vh;
+}
+
+.quote-primary {
+  border-left: 6px solid #303f9f;
+  //border-right: 6px solid #303f9f;
+  background-color: rgba(227, 227, 227, 0.7);
+  padding : 2vh 1vh 2vh 1vh;
+
+}
+
+.quote-secondary {
+  border-left: 6px solid #00796b;
+  background-color: rgba(227, 227, 227, 0.6);
+  padding : 2vh 1vh 2vh 1vh;
+
+
+;
+}
+
+.quote-danger {
+  border-left: 6px solid rgba(100, 0, 0, 0.6);
+  padding : 2vh 1vh 2vh 1vh;
+
+}
+
+
+
+.notepadBgFull {
+  background-image: url("https://res.cloudinary.com/joyce-ava-services/image/upload/v1528917495/UDEM/171.jpg");
+  background-repeat: no-repeat;
+  height: 100% ;
+}
+.notepadBg {
+  background-image: url("https://res.cloudinary.com/joyce-ava-services/image/upload/v1528917495/UDEM/171.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  //padding-top: 10vh;
+  //padding-bottom: 10vh;
+}
+
+
+.fullScreenDiv {
+  height: 100% !important;
+}
+
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

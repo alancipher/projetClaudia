@@ -1,0 +1,87 @@
+@import './colors';
+@import './forms';
+@import './wfmi-style';
+@import './mixins';
+@import './search';
+@import './logout';
+@import './RecoverResetPassword';
+@import './TermsPolicy';
+@import './Navigation';
+@import './CaseView';
+@import './Recap';
+
+
+// FIXME this is where the scss is at 
+
+.prop-info{
+  font-weight: normal;
+}
+
+p {
+  line-height: 2rem;
+}
+body {
+  padding-bottom: 3vh;
+}
+
+.buttons{
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  display: inline-block;
+  padding-top: 2vh;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.btn {
+  background: #0c6dc4;
+  background-image: -webkit-linear-gradient(top, #0c6dc4, #0c6dc4);
+  background-image: -moz-linear-gradient(top, #0c6dc4, #0c6dc4);
+  background-image: -ms-linear-gradient(top, #0c6dc4, #0c6dc4);
+  background-image: -o-linear-gradient(top, #0c6dc4, #0c6dc4);
+  background-image: linear-gradient(to bottom, #0c6dc4, #0c6dc4);
+  color: #ffffff;
+  //font-size: 8px;
+  //padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  //padding: 15px;
+
+}
